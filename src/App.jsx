@@ -1,17 +1,17 @@
-import Player from "./components/Player"
-import Sidebar from "./components/sidebar"
-
+import Sidebar from "./components/Sidebar";
+import Display from "./components/Display";
+import Player from "./components/Player";
 
 function App() {
   return (
-    <div className="h-screen bg-black">
-      <div className="h-[90%] flex">
-        <Sidebar/>
-        
+    <div className="h-screen bg-black flex flex-col">
+      <div className="flex h-[90%]">
+        <Sidebar />
+        <Display />
       </div>
-      <Player/>
+      <Player />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
