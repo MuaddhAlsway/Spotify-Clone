@@ -45,13 +45,17 @@ import chrisbrown1 from './chrisbrown1.mp3'
 import chrisbrown2 from './chrisbrown2.mp3'
 import chrisbrown3 from './chrisbrown3.mp3'
 import chrisbrown4 from './chrisbrown4.mp3'
-import badhabit from './badhabit.mp3'
+import ib from './OIP (1).webp'
+import ib1 from './OIP.webp'
 import valtboy from './valtboy.mp3'
 import OF from './OIF.webp'
 import img17 from './img17.jpg'
 import img18 from './img18.webp'
 import SongOF from './FallingSlowly.mp3'
 import chrisrownalbum from './This-Is-Chris-Brown (1).jpg'
+import badDesicion from './badhabit.mp3'
+import badDesicion1 from './badhabit1.mp3'
+
 export const assets = {
     bell_icon,
     home_icon,
@@ -166,9 +170,9 @@ export const songsData = [
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
+        name: "Bad Habit",
+        image: img11,
+        file:badDesicion1,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
@@ -259,7 +263,25 @@ export const songsData = [
   duration: "3:57",
   bgColor: "#4a5568"
 }
-
-    
+,
+{
+  id: 11,
+  name: "Bad Decision",
+  image: ib,
+  file: badDesicion,
+  desc: "Your weekly update of the most played tracks",
+  duration: "3:57",
+  bgColor: "#4a5568"
+}
+  ,
+{
+  id: 11,
+  name: "We Pray",
+  image: ib1,
+  file: badDesicion,
+  desc: "Your weekly update of the most played tracks",
+  duration: "3:57",
+  bgColor: "#4a5568"
+}  
     
 ]
