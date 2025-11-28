@@ -55,7 +55,7 @@ import SongOF from './FallingSlowly.mp3'
 import chrisrownalbum from './This-Is-Chris-Brown (1).jpg'
 import badDesicion from './badhabit.mp3'
 import badDesicion1 from './badhabit1.mp3'
-
+import wepray from './wepray.mp3'
 export const assets = {
     bell_icon,
     home_icon,
@@ -211,7 +211,7 @@ export const songsData = [
 
     
       {
-        id:6,
+        id:8,
         name: "Under the influence ",
         image: chrisrownalbum,
          file:chrisbrown1,
@@ -219,7 +219,7 @@ export const songsData = [
         bgColor:"#1a202c",
         duration:"2:35"
     },{
-  id: 7,
+  id: 9,
   name: "Angel Number",
   image: chrisrownalbum,
   file: chrisbrown4,
@@ -228,7 +228,7 @@ export const songsData = [
   bgColor: "#1a202c"
 },
 {
-  id: 7,
+  id: 10,
   name: "Residuals",
   image: chrisrownalbum,
   file: chrisbrown2,
@@ -237,7 +237,7 @@ export const songsData = [
   bgColor: "#1a202c"
 },
 {
-  id: 8,
+  id: 11,
   name: "Sensational",
   image: chrisrownalbum,
   file: chrisbrown3,
@@ -246,7 +246,7 @@ export const songsData = [
   bgColor: "#1a202c"
 },
 {
-  id: 9,
+  id: 12,
   name: "Everything Everywhere",
   image: img18,
   file: valtboy,
@@ -255,7 +255,7 @@ export const songsData = [
   bgColor: "#4a5568"
 },
 {
-  id: 10,
+  id: 13,
   name: "Falling Slowly ",
   image: OF,
   file: SongOF,
@@ -265,7 +265,7 @@ export const songsData = [
 }
 ,
 {
-  id: 11,
+  id: 14,
   name: "Bad Decision",
   image: ib,
   file: badDesicion,
@@ -275,10 +275,10 @@ export const songsData = [
 }
   ,
 {
-  id: 11,
+  id: 15,
   name: "We Pray",
   image: ib1,
-  file: badDesicion,
+  file: wepray,
   desc: "Your weekly update of the most played tracks",
   duration: "3:57",
   bgColor: "#4a5568"
