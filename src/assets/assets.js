@@ -41,7 +41,17 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
-
+import chrisbrown1 from './chrisbrown1.mp3'
+import chrisbrown2 from './chrisbrown2.mp3'
+import chrisbrown3 from './chrisbrown3.mp3'
+import chrisbrown4 from './chrisbrown4.mp3'
+import badhabit from './badhabit.mp3'
+import valtboy from './valtboy.mp3'
+import OF from './OIF.webp'
+import img17 from './img17.jpg'
+import img18 from './img18.webp'
+import SongOF from './FallingSlowly.mp3'
+import chrisrownalbum from './This-Is-Chris-Brown (1).jpg'
 export const assets = {
     bell_icon,
     home_icon,
@@ -111,7 +121,22 @@ export const albumsData = [
         image: img15,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
+    },
+    {
+        id:6,
+        name: "Chris brown",
+        image: img17,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#1a202c"
+
+    },
+    {    id:7,
+        name: "Valtboy",
+        image: img18,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#4a5568"
     }
+    ,
 ]
 
 export const songsData = [
@@ -178,5 +203,63 @@ export const songsData = [
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
-    }
+    },
+
+    
+      {
+        id:6,
+        name: "Under the influence ",
+        image: chrisrownalbum,
+         file:chrisbrown1,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#1a202c",
+        duration:"2:35"
+    },{
+  id: 7,
+  name: "Angel Number",
+  image: chrisrownalbum,
+  file: chrisbrown4,
+  desc: "Your weekly update of the most played tracks",
+  duration: "3:31",
+  bgColor: "#1a202c"
+},
+{
+  id: 7,
+  name: "Residuals",
+  image: chrisrownalbum,
+  file: chrisbrown2,
+  desc: "Your weekly update of the most played tracks",
+  duration: "2:58",
+  bgColor: "#1a202c"
+},
+{
+  id: 8,
+  name: "Sensational",
+  image: chrisrownalbum,
+  file: chrisbrown3,
+  desc: "Your weekly update of the most played tracks",
+  duration: "3:45",
+  bgColor: "#1a202c"
+},
+{
+  id: 9,
+  name: "Everything Everywhere",
+  image: img18,
+  file: valtboy,
+  desc: "Your weekly update of the most played tracks",
+  duration: "4:10",
+  bgColor: "#4a5568"
+},
+{
+  id: 10,
+  name: "Falling Slowly ",
+  image: OF,
+  file: SongOF,
+  desc: "Your weekly update of the most played tracks",
+  duration: "3:57",
+  bgColor: "#4a5568"
+}
+
+    
+    
 ]
