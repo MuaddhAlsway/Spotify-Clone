@@ -144,6 +144,14 @@ spotify-clone/
 
 ######   **Great Stack** – [YouTube Channel](https://www.youtube.com/@GreatStack)
 ---
+
+###### Link The Post
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7400187574398541824/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+
 ##### 📄 Notes
 
 ######  This project is for educational purposes. Feel free to use and adapt it for learning and personal projects.
+
+
